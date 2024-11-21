@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Kelas untuk navbar transparan */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparan */
+  transition: background-color 0.3s ease; /* Transisi halus */
+}
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 1); /* Tidak transparan saat digulir */
+}
